@@ -6,6 +6,7 @@
 package ar.com.ams.ejemplo.app.tvonline.logica;
 
 import ar.com.ams.ejemplo.app.tvonline.modelo.Usuario;
+import java.util.List;
 
 /**
  *
@@ -13,4 +14,5 @@ import ar.com.ams.ejemplo.app.tvonline.modelo.Usuario;
  */
 public interface UsuarioService {
     public void add(Usuario usr);
+    public List<Usuario> listar();
 }
